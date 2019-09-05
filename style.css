@@ -1,0 +1,23 @@
+body {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+/* Animation Bewegung */
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
