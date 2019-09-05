@@ -13,16 +13,19 @@
 
   <h1>We will Rock your Construction Site</h1>
 
-  <p>#1 Picture becomes animated when hovered</p>
+  <p>#1 Picture becomes animated when hovered.</p>
 
-  <p>#2 Music plays on click 🎸</p>
+  <p>#2 Play 🎸 when interacting with the image.
+    <br />Clicking, mouseover and mouseout have effects.</p>
 
   <!-- <a href="#" onmouseenter="playAudio()">play guitar on hover</a><br /><br />
   <a href="#" onclick="playAudio()">play guitar on click</a><br /><br /> -->
 
   <!-- BILDER, DIE SICH BEWEGEN -->
 
-  <div onmouseenter="playAudio()" onclick="playAudio()">
+  <div onmouseover="playAudio()" onmouseout="pauseAudio()" onclick="pauseAudio()" onclick="playAudio()">
+
+
 
     <!-- Bild in Ruhe ____static -->
     <img class="static" src="Layout-Ebenen-Rock-Kran-1.jpg" width="500px;">
@@ -33,7 +36,7 @@
 
   </div>
 
-  <button onclick="pauseAudio()" type="button">Pause Audio</button>
+  <!-- <button onclick="pauseAudio()" type="button">Pause Audio</button> -->
 
 
 
